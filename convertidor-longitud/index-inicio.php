@@ -90,13 +90,10 @@ if (isset($_POST["convertir"])) {
     $resultado = number_format($calcularHasta, 2);
 }
 
-
-
 ?>
 
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -148,7 +145,6 @@ if (isset($_POST["convertir"])) {
 
             </section>
 
-
             <section class="row mt-4">
                 <div class="col-sm-6">
                     <button type="submit" name="convertir" class="btn btn-primary w-100 py-4">CONVERTIR</button>
@@ -161,13 +157,7 @@ if (isset($_POST["convertir"])) {
                     </div>
                 </div>
             </section>
-
         </form>
-
     </main>
-
-
-
 </body>
-
 </html>
